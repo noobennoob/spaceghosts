@@ -12,7 +12,8 @@ if(room == rm_start){
 	press: space to shoot
 	press: N to go to see the new features (if they are any)
 	
-	>>press enter to start<<
+	>>press backspace to start duplication mode	<<
+	>>press enter to start original gamemode	<<
 	")
 	
 }
@@ -28,9 +29,9 @@ if(room == rm_gameover){
 
 if(room == rm_news){
 	draw_text(300, 300, @"NEWS
-				green ghosts has now two lives
-				added a easter egg
-				added a news page that you are currently reeding
+				added the golden ghost
+				added duplication ghost (if you're in duplication mode)
+				added some new keybindings (only one)
 				
 				and by the way press M to go to main meny")
 

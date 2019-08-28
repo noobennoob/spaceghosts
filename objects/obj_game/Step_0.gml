@@ -18,3 +18,4 @@ if (keyboard_check_released(ord("N"))) {
 	room_goto(rm_news)
 }
 
+
