@@ -3,7 +3,7 @@
 if (keyboard_check_pressed(vk_enter)){
 room_goto(rm_game);
 }
-if (score = 500){ 
+if (score =1000){ 
 	room_goto(rm_win)
 }
 if (lives <= 0){
@@ -17,5 +17,15 @@ if (keyboard_check_released(ord("M"))) {
 if (keyboard_check_released(ord("N"))) {
 	room_goto(rm_news)
 }
+
+if keyboard_check_pressed(vk_backspace) {
+	
+	room_goto(rm_duplication_mode)
+	
+	
+}
+
+
+
 
 

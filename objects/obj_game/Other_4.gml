@@ -19,6 +19,8 @@ if (room == rm_win){
 
 if (room == rm_easter_egg1) {
 	audio_play_sound(snd_finding_easter_egg1, 1, false)
+}
+if (room == rm_duplication_mode) {
+audio_play_sound(song_game, 1, true)
 
-
-	}
+}

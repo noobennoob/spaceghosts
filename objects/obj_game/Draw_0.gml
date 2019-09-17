@@ -25,6 +25,7 @@ if(room == rm_gameover){
 	var r = c_red
 	draw_text_transformed_color(288, 97, "gameover", 4, 3, 0, r, r, r, r, 1)
 	draw_text(300, 400, ">>press enter to restart<<")
+	draw_text(60, 660, "your score was" + string (score))
 }
 
 if(room == rm_news){
@@ -32,6 +33,7 @@ if(room == rm_news){
 				added the golden ghost
 				added duplication ghost (if you're in duplication mode)
 				added some new keybindings (only one)
+				if you're in duplication mode you shoot bombs
 				
 				and by the way press M to go to main meny")
 
@@ -39,4 +41,11 @@ if(room == rm_news){
 
 if(room == rm_easter_egg1){
 	draw_text(300, 300, "congrats, you found me!")
+}
+
+if (room == rm_duplication_mode) {
+	
+	draw_text(10, 10, "lives " + string (lives))
+	draw_text(10, 40, "score " + string (score))
+
 }

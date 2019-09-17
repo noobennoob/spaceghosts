@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1cd1ed2d-8ab6-4812-bb41-52af2b91678b",
+            "Value": {
+                "id": "099c4159-8747-4f44-a147-fdbc4bf095c9",
+                "resourcePath": "sprites\\spr_rocket\\spr_rocket.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e397144-fa62-4e7f-8a0a-6688ff6f6716",
             "Value": {
                 "id": "f5638a32-3af3-434e-91ce-e87733956b6f",
@@ -148,6 +156,14 @@
                 "id": "bc3863e6-d3e8-4624-9fe9-e72a8a553393",
                 "resourcePath": "rooms\/rm_game\/rm_game.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "44e8dcfb-b92a-471f-a478-1e6438381e9f",
+            "Value": {
+                "id": "fcc18d47-b253-4aab-b7dc-6d9670bf2019",
+                "resourcePath": "objects\\obj_pacman_pl_duplication\\obj_pacman_pl_duplication.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -452,6 +468,14 @@
                 "id": "93e68062-87d0-4ec5-bd2f-e1c6087acde1",
                 "resourcePath": "rooms\\rm_easter_egg1\\rm_easter_egg1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d6d2b933-4a0c-44b4-8544-65e6b046e273",
+            "Value": {
+                "id": "2c924da8-db48-4487-b77a-cc2b6ea37353",
+                "resourcePath": "objects\\obj_rocket\\obj_rocket.yy",
+                "resourceType": "GMObject"
             }
         },
         {
