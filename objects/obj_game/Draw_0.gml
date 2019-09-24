@@ -3,7 +3,7 @@ if(room == rm_start){
 	var g = c_green
 	draw_text_transformed_color(288,97,"SPACE GHOSTS",5,4,0,j,j,g,g,1)
 	draw_text(288,150,@"
-	get 500 points to win
+	get 1000 points to win
 	
 	press: W to accelerate
 	press: S to deaccelerate
@@ -48,4 +48,25 @@ if (room == rm_duplication_mode) {
 	draw_text(10, 10, "lives " + string (lives))
 	draw_text(10, 40, "score " + string (score))
 
+}
+if (room == rm_start) {
+	draw_text(830, 750, "based on a true story")
+}
+if (room == rm_game) {
+	draw_text(830, 750, "based on a true story")
+}
+if (room == rm_gameover) {
+	draw_text(830, 750, "based on a true story")
+}
+if (room == rm_win) {
+	draw_text(830, 750, "based on a true story")
+}
+if (room == rm_duplication_mode) {
+	draw_text(830, 750, "based on a true story")
+}
+if (room == rm_easter_egg1) {
+	draw_text(830, 750, "based on a true story")
+}
+if (room == rm_news) {
+	draw_text(830, 750, "based on a true story")
 }
