@@ -24,23 +24,31 @@ if(room == rm_game){
 if(room == rm_gameover){
 	var r = c_red
 	draw_text_transformed_color(288, 97, "gameover", 4, 3, 0, r, r, r, r, 1)
-	draw_text(300, 400, ">>press enter to restart<<")
+	draw_text(300, 400, ">>press M to quit to title<<")
 	draw_text(60, 660, "your score was" + string (score))
 }
 
 if(room == rm_news){
-	draw_text(300, 300, @"NEWS
+	draw_text(300, 300, @"NEWS for v1.0
 				added the golden ghost
 				added duplication ghost (if you're in duplication mode)
 				added some new keybindings (only one)
 				if you're in duplication mode you shoot bombs
+				stage 2 of the green ghost have now a pathfinder
+				golden ghosts also have a pathfinder
+				added a new easter egg
 				
 				and by the way press M to go to main meny")
 
 }
 
 if(room == rm_easter_egg1){
-	draw_text(300, 300, "congrats, you found me!")
+	draw_text(300, 300, @"congrats, you found me!
+			
+			game created in april 23 2018 by Fabian Fried
+	
+	
+	")
 }
 
 if (room == rm_duplication_mode) {

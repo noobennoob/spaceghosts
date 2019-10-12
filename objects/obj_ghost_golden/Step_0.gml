@@ -4,4 +4,13 @@ move_wrap(true,true,10)
 
 
 
-alarm[11] = room_speed*20
+switch (myCurrentState) {
+	case enemystates.patrolling:
+		scrPatrolling();
+		break;
+	case enemystates.chasing:
+		scrChasing();
+		break;
+		
+		
+}
