@@ -1,2 +1,2 @@
 language: node_js
-script: "ls -l"
+script: "ls -l && man sftp"
