@@ -37,18 +37,14 @@ if(room == rm_news){
 				stage 2 of the green ghost have now a pathfinder
 				golden ghosts also have a pathfinder
 				added a new easter egg
+				green ghost stage 2 now spawn where its previous stage died
 				
 				and by the way press M to go to main meny")
 
 }
 
 if(room == rm_easter_egg1){
-	draw_text(300, 300, @"congrats, you found me!
-			
-			game created in april 23 2018 by Fabian Fried
-	
-	
-	")
+	draw_text(300, 300, "congrats, you found me!")
 }
 
 if (room == rm_duplication_mode) {

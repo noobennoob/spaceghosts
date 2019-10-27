@@ -4,7 +4,7 @@ repeat(1){
 	
 	var random_x  = irandom_range(0, x)
 	var random_y  = irandom_range(0, y)
-	instance_create_layer(random_x,random_y,"Instances", obj_ghost_green_stage2)
+	instance_create_layer(x,y,"Instances", obj_ghost_green_stage2)
 
 }
 
